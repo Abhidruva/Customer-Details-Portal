@@ -1,4 +1,4 @@
-// src/components/CustomerList.tsx
+
 import React from 'react';
 import { Customer } from '../models/Customer';
 import CustomerCard from './CustomerCard';

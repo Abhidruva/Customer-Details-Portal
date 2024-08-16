@@ -26,7 +26,7 @@
 
 // export default App;
 
-// src/App.tsx
+
 import React, { useState, useEffect } from 'react';
 import CustomerList from './components/CustomerList';
 import CustomerDetails from './components/CustomerDetails';
@@ -82,7 +82,7 @@ const App: React.FC = () => {
   const [selectedCustomer, setSelectedCustomer] = useState<Customer | null>(null);
 
   useEffect(() => {
-    // Select the first customer by default
+    
     if (customers.length > 0) {
       setSelectedCustomer(customers[0]);
     }

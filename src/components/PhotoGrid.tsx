@@ -1,4 +1,4 @@
-// // src/components/PhotoGrid.tsx
+
 // import React, { useEffect, useState } from 'react';
 
 // interface Props {
@@ -17,11 +17,11 @@
 //   }, []);
 
 //   const fetchPhotos = async () => {
-//     // Replace with a public API endpoint to fetch photos
+//     
 //     // let url="https://api.unsplash.com/photos/random/?client_id=M3745tb9PrRntsatJVb7nmARMkRLZUKQoB1MpisGeXI"
 //     const response = await fetch("https://api.unsplash.com/photos/random/?client_id=M3745tb9PrRntsatJVb7nmARMkRLZUKQoB1MpisGeXI");
 //     const data = await response.json();
-//     return data.photos.slice(0, 9); // Assume API returns an array of photo URLs
+//     return data.photos.slice(0, 9); 
 //   };
 
 //   return (
@@ -35,7 +35,7 @@
 
 // export default PhotoGrid;
 
-// src/components/PhotoGrid.tsx
+
 import React, { useEffect, useState } from 'react';
 
 interface Props {

@@ -1,4 +1,4 @@
-// src/components/CustomerDetails.tsx
+
 import React from 'react';
 import { Customer } from '../models/Customer';
 import PhotoGrid from './PhotoGrid';
